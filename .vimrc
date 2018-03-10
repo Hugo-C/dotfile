@@ -64,6 +64,8 @@ set mouse =a
 imap <C-Space> <C-X><C-O>
 let g:ycm_key_list_select_completion = ['<Enter>']
 
+let g:syntastic_python_checkers = ['flake8'] "set syntastic to python3
+
 set tabstop =4
 set shiftwidth =4
 set softtabstop =4
