@@ -60,7 +60,7 @@ set incsearch
 filetype on
 
 set mouse =a
-"set cursorline
+set cursorline
 imap <C-Space> <C-X><C-O>
 let g:ycm_key_list_select_completion = ['<Enter>']
 
