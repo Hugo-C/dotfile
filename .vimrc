@@ -85,7 +85,7 @@ ino {<CR> {<CR>}<ESC>O
 nnoremap <C-tab>   :tabnext<CR>
 map <C-i> :gg=G' <Return>
 map <F3> :!python3 -i % <Return>
-map <F4> :!sbcl --load %<Return>
+map <F4> :!clisp %<Return>
 map <F5> :!javac "%" <Return>
 map <F7> :!gcc -Wall -Wextra -pedantic -g -std=c99 % -o %:r <Return>
 map <F8> :!gcc -Wall -Wextra -pedantic -g -std=c99 % -o %:r <Return> :!./%:r <Return>
