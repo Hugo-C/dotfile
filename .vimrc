@@ -83,6 +83,7 @@ ino { {}<left>
 ino {<CR> {<CR>}<ESC>O
 
 nnoremap <C-tab>   :tabnext<CR>
+nmap =j :%!python -m json.tool<CR>
 map <C-i> :gg=G' <Return>
 map <F3> :!python3 -i % <Return>
 map <F4> :!clisp %<Return>
@@ -94,8 +95,6 @@ map <F10> :!javac "%" <Return> :!java "%:r" <Return>
 map <F11> :!ocaml -init % <Return> 
 "map <F12> :!ocamlc -i "%" <Return>
 
-map <F6> :!spin -n2 -T %<CR>
-"fin TP2
 set title
 set visualbell
 
