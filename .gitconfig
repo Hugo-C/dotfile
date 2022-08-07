@@ -1,0 +1,10 @@
+[user]
+	email = Hugo-C@users.noreply.github.com
+	name = Hugo-C
+[core]
+	editor = vim
+	autocrlf = input
+[credential]
+	helper = cache
+[pull]
+	rebase = false
