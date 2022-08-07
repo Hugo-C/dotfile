@@ -17,6 +17,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 Plugin 'mikaelj/limp'
+Plugin 'ron-rs/ron.vim'
 
 "colorscheme zone /!\
 Plugin 'chriskempson/base16-vim'

@@ -73,6 +73,8 @@ xterm*|rxvt*)
     ;;
 esac
 
+set -o vi # Set vi like command
+
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -119,6 +121,12 @@ fi
 
 # Get color support for 'less'
 export LESS="--RAW-CONTROL-CHARS"
+export PYTEST_THEME="monokai"
+
+alias stop_docker='docker stop $(docker ps -q)'
+alias cpout='2>&1 | tee'
+alias git_c='git log -1 --format="%H"'
+. "$HOME/.cargo/env"
 
 # Use colors for less, man, etc.
 [[ -f ~/.LESS_TERMCAP ]] && . ~/.LESS_TERMCAP
