@@ -8,3 +8,5 @@
 	helper = cache
 [pull]
 	rebase = false
+[alias]
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
