@@ -128,6 +128,7 @@ alias stop_docker='docker stop $(docker ps -q)'
 alias cpout='2>&1 | tee'
 alias git_c='git log -1 --format="%H"'
 . "$HOME/.cargo/env"
+eval "$(starship init bash)"
 
 # Use colors for less, man, etc.
 [[ -f ~/.LESS_TERMCAP ]] && . ~/.LESS_TERMCAP
