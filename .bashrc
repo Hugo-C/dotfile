@@ -127,6 +127,7 @@ alias colored_tcpdump='stdbuf -o0 grc tcpdump'
 alias stop_docker='docker stop $(docker ps -q)'
 alias cpout='2>&1 | tee'
 alias git_c='git log -1 --format="%H"'
+alias hurll='hurl --very-verbose'
 . "$HOME/.cargo/env"
 eval "$(starship init bash)"
 
