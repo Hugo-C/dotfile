@@ -63,6 +63,8 @@ filetype on
 
 set mouse =a
 set cursorline
+set textwidth=120
+set colorcolumn=+1
 imap <C-Space> <C-X><C-O>
 let g:ycm_key_list_select_completion = ['<Enter>']
 
