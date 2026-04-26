@@ -21,7 +21,6 @@ Plugin 'ron-rs/ron.vim'
 
 "colorscheme zone /!\
 Plugin 'chriskempson/base16-vim'
-Plugin 'ajh17/spacegray.vim'
 Plugin 'tomasr/molokai'
 
 " All of your Plugins must be added before the following line

@@ -1,3 +1,4 @@
+# cp dotfile/starship_config.toml ~/.config/starship.toml
 # Disable the blank line at the start of the prompt
 add_newline = false
 
